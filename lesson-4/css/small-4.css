@@ -1,1 +1,53 @@
+body {
+    background-color: #0B1118;
+    font-family: 'Questrial', sans-serif;
+    color: #FFFFFF; 
+}
 
+header {
+	margin: 2px auto;
+	background-color: #0B2A40;
+	border: 1px solid #0B2A40;
+	text-align: center;
+}
+.motto {font-size: 30px;
+    color: #FF8000;
+    display: inline-block;
+}
+
+header img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    text-align: left;
+}
+nav
+{
+    background-color: #0B2A40;
+    text-align: center;
+    padding: 5px;
+   
+   
+}   
+nav a:hover, a:visited, a:active, a:link
+{
+    color:#B4B4B0;
+    text-decoration: none;
+   
+}
+nav a:hover
+{
+    text-decoration: underline;
+
+}
+nav ul li
+{
+    margin: 8px auto;
+    list-style:none;
+}
+h1
+{
+    font-size: 30px;
+    color: #FF8000;
+    text-align: center;   
+}
