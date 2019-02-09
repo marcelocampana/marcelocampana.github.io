@@ -22,23 +22,18 @@ h2
 
 /* header section */
 
-header
-{
-    background-color: #0B2A40;
-    display:block;
-    max-width: 320px;
-    height: 110px; 
-    margin:auto;    
+header {
+	margin: 10px auto;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
 }
-header h1 
-{
 
-    position: absolute;
-    top: 35px;
-    left:120px;
-    font-size: 20px;
-    color: #FF8000;
-
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
 }
 .motto
 {
@@ -48,19 +43,7 @@ header h1
     top: 62px;
     left:130px;
     font-size: 10px;
-    color:#B4B4B0   
-
-
-
-}
-
-header img {
-position: inherit;
-padding-left: 10%;
-width: 80px;
-margin:auto;
-  
-   
+    color:#B4B4B0;
 }
 
 header h1
