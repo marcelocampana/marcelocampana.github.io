@@ -32,17 +32,20 @@ header
 }
 header h1 
 {
-    padding-top: 25px;
-    float: left;
+
+    position: absolute;
+    top: 35px;
+    left:120px;
     font-size: 20px;
     color: #FF8000;
+
 }
 .motto
 {
 
    
-    position: absolute;
-    top: 60px;
+    position:absolute;
+    top: 62px;
     left:130px;
     font-size: 10px;
     color:#B4B4B0   
@@ -52,9 +55,9 @@ header h1
 }
 
 header img {
+position: inherit;
 padding-left: 10%;
 width: 80px;
-float: left;
 margin:auto;
   
    
