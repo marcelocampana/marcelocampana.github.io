@@ -27,22 +27,23 @@ header
     background-color: #0B2A40;
     display:block;
     max-width: 320px;
-    height: 120px; 
+    height: 110px; 
     margin:auto;    
 }
 header h1 
 {
     padding-top: 35px;
     float: left;
-    font-size: 25px;
+    font-size: 20px;
     color: #FF8000;
 }
 .motto
 {
 
-    float: left;
-    text-align: center;
-    margin-top: -20px;
+   
+    position: absolute;
+    top: 70px;
+    left:130px;
     font-size: 10px;
     color:#B4B4B0   
 
@@ -51,10 +52,10 @@ header h1
 }
 
 header img {
-padding-left: 2%;
-width: 100px;
+padding-left: 10%;
+width: 80px;
 float: left;
-clear: right;
+margin:auto;
   
    
 }
