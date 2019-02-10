@@ -1,14 +1,17 @@
+
+@media (max-width: 414px) {
+
 body {
     background-color: #0B1118;
     font-family: 'Questrial', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     color: #FFFFFF; 
-    max-width: 320px;
+    max-width: 414px;
 }
 
 h1
 {
-    font-size: 30px;
+    font-size: 25px;
     color: #FF8000;
     text-align: center;   
 }
@@ -16,32 +19,39 @@ h2
 {
     font-size: 20px;
     color: #FF8000;
+    text-align: center;    
+}
+.separator
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
     text-align: center;
-    
+}
+
+a
+{
+    color:#B4B4B0;    
 }
 
 /* header section */
 
 header {
-	margin: 10px auto;
-	background-color: #fff;
-	border: 1px solid #bbb;
-	box-shadow: 0 0 30px #777;
-	text-align: center;
+	margin-top: 10px auto;
+	background-color: #0B2A40;
+    text-align: center;
+    height: 95px;
 }
 
 header img, .headings {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 10px;
+	margin: 0px;
 }
 .motto
-{
-
-   
+{ 
     position:absolute;
-    top: 62px;
-    left:130px;
+    top: 50px;
+    left:180px;
     font-size: 10px;
     color:#B4B4B0;
 }
@@ -49,6 +59,10 @@ header img, .headings {
 header h1
 {
     font-family: 'Questrial', cursive;
+}
+header img
+{
+    width:80px;
 }
 
 /* nav section */
@@ -90,18 +104,37 @@ nav li a:hover
 }
 #img_bottom
 {
-    max-width: 320px;
+    max-width: 100%;
   
 }
 #summary
 {
-position: absolute;
-top: 10px;
-padding: 20px;
-margin-left: 20px;
-background: #0B2A40;
-width: 50%;
+    position: absolute;
+    top: 60px;
+    padding: 30px;
+    margin-left: 20px;
+    background: radial-gradient(#677261, #0B2A40);
+    box-shadow: 0 0 2px #fff;
+    width: 50%;
+    opacity: 0.9;
+  filter: alpha(opacity=10);
 }
+td
+{
+    font-size: 15px;
+}
+.thetag
+{
+    text-align: right;   
+}
+.thevalue
+{
+    text-align: left; 
+    color: #FF8000 ;
+    font-weight: bold; 
+}
+
+
 
 
 /* article section */
@@ -109,14 +142,14 @@ width: 50%;
 article
 {
 padding-top:10px; 
-margin-top: 100px;
+margin-top: 70px;
 background: #0B2A40;
 }
 article p
 {
     padding: 20px;
-    font-size: 15px;
-    line-height: 18px;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 
 article h2
@@ -126,12 +159,12 @@ article h2
 }
 article h3
 {
-text-align: left;
-margin-top: -10px;
-margin-bottom: 20px;
-padding-left: 20px;
-font-size: 10px;
-color:#B4B4B0   
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 10px;
+    color:#B4B4B0   
 }
 article img
 {
@@ -141,3 +174,40 @@ article img
     
 }
 
+/* contact section */
+
+#maps
+{
+    display:block;
+    margin:auto;
+    max-width: 320px;
+    
+}
+.contact
+{
+   
+    text-align: center;
+    color: #B4B4B0;
+}
+.social
+{
+display: inline-block;
+vertical-align: middle;
+margin: 0px;
+}
+
+#img_social
+{
+    width: 20px;     
+}
+
+/* footer section */
+footer
+{
+    background: #0B2A40;
+    text-align: center;
+    padding: 10px;
+    color: #B4B4B0;
+}
+
+}

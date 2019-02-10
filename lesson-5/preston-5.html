@@ -3,17 +3,20 @@
     <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-            <title>Weather Keys</title>
-            <meta name="description" content="The Climates Change Keys ">
+            <title>Weather Keys | The Climate Web Data </title>
+            <meta name="description" content="The Climate Web Data ">
             <link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet">
+            <link rel="stylesheet" href="css/large-5.css">
             <link rel="stylesheet" href="css/small-5.css">
+            <link rel="stylesheet" href="../css/normalize.css">
     </head>
     <body>
+       <div id='content'>
             <header>
                 <img src="images/logo.jpg" alt="The logo">
                 <section class="headings">
                   <h1>Weather Keys</h1>
-                  <h3 class='motto'>The climate's studies</h3>           
+                  <h3 class='motto'>The Climate Web Data</h3>           
             </section>  
         </header>
         <nav>
@@ -31,36 +34,72 @@
         <main>
             <div>
                 <h1>Preston Idaho</h1>
-                <div>
+            </div>   
                         
-                        <div id='main1'><img id='img_bottom' src="images/pexels.jpeg" alt="town">
+                        <div id='main1'><img id='img_bottom' src="images/pexels.jpeg" alt="the town">
                                 <div id='summary'>
                                         <h2>Weather Summary</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>   
-                                    </div> 
-                        
-                        
-                </div>
-              
+                                        <table>
+                                                <tr>
+                                                    <td class='thetag'>Currently:</td>
+                                                    <td class='thevalue'> Sunny</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='thetag'>High:</td>
+                                                    <td class='thevalue'>76 Fº</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='thetag'>Wind Chill:</td>
+                                                    <td class='thevalue'>78 Fº</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='thetag'>Humedity: </td>
+                                                    <td class='thevalue'>69%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='thetag'>Wind Speed:</td>
+                                                    <td class='thevalue'>5 mph</td>
+                                                </tr>
+                                        </table> 
+                                </div>                        
+            </div>
+            <div><img class='forecast' src="images/forecast.png" alt="The logo"></div>
             <article>
                     <div>
-                        <h2>Fall's Rains</h2>
-                        <h3>By Marcelo Campana</h3>
-                        <img src="images/umbrella.jpg" alt="article image">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                        </p>
+                        <h2>Rainfall in Preston</h2>
+                        <h3>By weatherspark.com</h3>
+                        <img src="images/umbrella.jpg" alt="Man with an umbrella">
+                        <p>To show variation within the months and not just the monthly totals, we show the rainfall accumulated over a sliding 31-day period centered around each day of the year. Preston experiences some seasonal variation in monthly rainfall.
+                                Rain falls throughout the year in Preston. The most rain falls during the 31 days centered around May 19, with an average total accumulation of 1.8 inches.
+                                The least rain falls around July 9, with an average total accumulation of 0.5 inches. <a href="#"> See more</a></br> </p>
                     </div>
             </article>
             <div>
                 <h2>Contact information</h2>
-                <img src="" width="320" alt="map">
-            </div> 
+                <p class='contact'> Weather Key </p>
+                <p class='contact'>923749324924</p>
+                <p class='contact'>info@wheatherkey.com</p>
+                <div class='separator'>
+                    <div class='social'><img id='img_social' src="images/facebook.png" alt="facebook"></div>
+                    <div class='social'><img id='img_social' src="images/twitter.png" alt="facebook"></div>
+                    <div class='social'><img id='img_social' src="images/pinterest.png" alt="facebook"></div>
+                    <div class='social'><img id='img_social' src="images/wsp.png" alt="facebook"></div>
+                </div>
+                <img id='maps' src="images/map.png" width="320" alt="map"></br>
+            </div>
+            
         </main>
+        
+        
+
+
 
         <footer>
-                <p>&copy;2019 - Marcelo Campana - Location: Santiago,Chile - <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+            <div>
+                <p>&copy;2019 - Weather Key | Atributions | Marcelo Campana </p>
+                <p>Saturday, 9 February 2019</p>
+            </div>    
         </footer>
-            
+    </div>       
     </body>
 </html>
