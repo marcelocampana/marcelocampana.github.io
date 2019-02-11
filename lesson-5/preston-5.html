@@ -9,6 +9,17 @@
             <link rel="stylesheet" href="css/large-5.css">
             <link rel="stylesheet" href="css/small-5.css">
             <link rel="stylesheet" href="../css/normalize.css">
+
+            <script> 
+                function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                        } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
     </head>
     <body>
        <div id='content'>
@@ -20,23 +31,26 @@
             </section>  
         </header>
         <nav>
-                <ul>
-                    <li><a class='active' href="#">Menu</a></li>
-                    <li><a class='active' href="#">Home</a></li>
-                    <li><a class='active' href="#">Preston</a></li>
-                    <li><a class='active' href="#">Soda Spring</a></li>
-                    <li><a class='active' href="#">Fish Haven</a></li>
-                    <li><a class='active' href="#">Storm Center</a></li>
-                    <li><a class='active' href="#">Gallery</a></li>
-
-                </ul>
-            </nav>
+            <div class="topnav">
+                <a href="javascript:void(0);" onclick="myFunction()" id='menu' class="active">Menu</a>
+                    <div id="myLinks">
+                        <ul>
+                            <li><a class='active' href="#">Home</a></li>
+                            <li><a class='active' href="#">Preston</a></li>
+                            <li><a class='active' href="#">Soda Spring</a></li>
+                            <li><a class='active' href="#">Fish Haven</a></li>
+                            <li><a class='active' href="#">Storm Center</a></li>
+                            <li><a class='active' href="#">Gallery</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
         <main>
             <div>
                 <h1>Preston Idaho</h1>
             </div>   
                         
-                        <div id='main1'><img id='img_bottom' src="images/pexels.jpeg" alt="the town">
+                        <div id='main1'><div class='overflow'><img id='img_bottom' src="images/pexels.jpeg" alt="the town"></div>
                                 <div id='summary'>
                                         <h2>Weather Summary</h2>
                                         <table>
@@ -63,7 +77,7 @@
                                         </table> 
                                 </div>                        
             </div>
-            <div><img class='forecast' src="images/forecast.png" alt="The logo"></div>
+            <div id='forecast'><h2>5 Days Forecast</h2><img id='forecast_img'src="images/forecast.png" alt="The logo"></div>
             <article>
                     <div>
                         <h2>Rainfall in Preston</h2>
@@ -74,26 +88,23 @@
                                 The least rain falls around July 9, with an average total accumulation of 0.5 inches. <a href="#"> See more</a></br> </p>
                     </div>
             </article>
-            <div>
+            <div id='contact_area'>
                 <h2>Contact information</h2>
-                <p class='contact'> Weather Key </p>
+                <img id='map' src="images/map.png" width="320" alt="map"></br>
+                <p class='contact contact_title'> Weather Key Site </p>
+                <p class='contact'>Main Office -  Habision Avenue 10100 - California</p>
+                <p class='contact'>info@wheatherkey.com</p>
                 <p class='contact'>923749324924</p>
                 <p class='contact'>info@wheatherkey.com</p>
-                <div class='separator'>
+                <div class='separator separator_pos'>
                     <div class='social'><img id='img_social' src="images/facebook.png" alt="facebook"></div>
-                    <div class='social'><img id='img_social' src="images/twitter.png" alt="facebook"></div>
-                    <div class='social'><img id='img_social' src="images/pinterest.png" alt="facebook"></div>
-                    <div class='social'><img id='img_social' src="images/wsp.png" alt="facebook"></div>
+                    <div class='social'><img id='img_social' src="images/twitter.png" alt="twitter"></div>
+                    <div class='social'><img id='img_social' src="images/pinterest.png" alt="pinterest"></div>
+                    <div class='social'><img id='img_social' src="images/wsp.png" alt="whatsapp"></div>
                 </div>
-                <img id='maps' src="images/map.png" width="320" alt="map"></br>
-            </div>
-            
+                
+            </div>          
         </main>
-        
-        
-
-
-
         <footer>
             <div>
                 <p>&copy;2019 - Weather Key | Atributions | Marcelo Campana </p>
@@ -103,3 +114,4 @@
     </div>       
     </body>
 </html>
+           
