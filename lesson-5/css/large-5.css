@@ -39,7 +39,6 @@
     /* header section */
 
     header {
-        margin-top: 10px auto;
         background-color: #0B2A40;
         text-align: center;
         height: 95px;
@@ -59,7 +58,7 @@
         text-align: center;
     }
 
-    header h1
+    header h2
     {
         font-family: 'Questrial', cursive;
     }
@@ -260,7 +259,7 @@
         text-align: left;
     }
 
-    #img_social
+    .img_social
     {
         width: 20px;
     }
