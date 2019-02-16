@@ -1,0 +1,255 @@
+@media screen and (max-width: 414px){
+
+    body {
+        background-color: #0B1118;
+        font-family: 'Questrial', sans-serif;
+        font-size: 15px;
+        color: #FFFFFF; 
+        max-width: 414px;
+    }
+    #content
+    {
+        margin: 0 auto;
+        width:100%;   
+    }
+
+    h1
+    {
+        font-size: 25px;
+        color: #FF8000;
+        text-align: center;   
+    }
+    h2
+    {
+        font-size: 20px;
+        color: #FF8000;
+        text-align: center;    
+    }
+    .separator
+    {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    a
+    {
+        color:#B4B4B0;    
+    }
+
+    /* header section */
+
+    header {
+        
+        background-color: #0B2A40;
+        text-align: center;
+        height: 95px;
+    }
+
+    header img, .headings {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0px;
+    }
+    .motto
+    { 
+        position:absolute;
+        top: 50px;
+        left:180px;
+        font-size: 10px;
+        color:#B4B4B0;
+    }
+
+    header h2
+    {
+        font-family: 'Questrial', cursive;
+    }
+    header img
+    {
+        width:80px;
+    }
+
+    /* nav section */
+    nav
+    {
+        background-color: #0B2A40;
+        text-align: left;
+        font-size: 13px;  
+    }   
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; 
+    }
+    nav li a
+    {
+        padding: 10px;
+        list-style:none;
+        display: block;
+        text-decoration: none;
+    }
+    nav li a:hover 
+    {
+        background-color: #0B2A40;
+        color: white;
+    }
+    .active 
+    {
+        background-color: #677261;
+        color: white;
+        
+    }
+
+    /* Style the navigation movil menu */
+    #menu
+    {
+        font-size: 25px;
+        background:  #677261;
+        text-align: left;
+        padding: 0 0 0 5px; 
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #0B2A40;
+        position: relative;
+    }
+    
+    .topnav #myLinks {
+        display: none;
+    }
+    
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 13px;
+        display: block;
+    }
+    
+    
+    .topnav li a:hover {
+        background-color: #0B2A40;
+        color:#ffffff;
+    }
+
+    /* main section */
+    #main1
+    {
+        position: relative;
+        overflow: visible;
+        
+    }
+    #img_bottom
+    {
+        max-width: 100%;
+    
+    }
+    #summary
+    {
+        position: absolute;
+        top: 60px;
+        padding: 30px;
+        margin-left: 20px;
+        background: radial-gradient(#677261, #0B2A40);
+        box-shadow: 0 0 2px #fff;
+        width: 50%;
+        opacity: 0.9;
+    filter: alpha(opacity=10);
+    }
+    td
+    {
+        font-size: 15px;
+    }
+    .thetag
+    {
+        text-align: right;   
+    }
+    .thevalue
+    {
+        text-align: left; 
+        color: #FF8000 ;
+        font-weight: bold; 
+    }
+
+    /* forecast section */
+    #forecast
+    {
+        display: none;
+    }
+
+    /* article section */
+
+    article
+    {
+        padding-top:10px; 
+        margin-top: 70px;
+        background: #0B2A40;
+    }
+    article p
+    {
+        padding: 20px;
+        line-height: 20px;
+        padding-bottom: 40px;
+    }
+
+    article h2
+    {
+        padding-left: 20px;
+        text-align: left;    
+    }
+    article h3
+    {
+        text-align: left;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        font-size: 10px;
+        color:#B4B4B0   
+    }
+    article img
+    {
+        display:block;
+        margin:auto;
+        max-width: 90%;
+        
+    }
+
+    /* contact section */
+
+    #map
+    {
+        display:block;
+        margin:auto;
+        max-width: 100%;;
+        
+    }
+    .contact
+    {
+        text-align: center;
+        color: #B4B4B0;
+    }
+    .contact_title
+    {
+        font-weight: bold;
+    }
+    .social
+    {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    }
+
+    .img_social
+    {
+        width: 20px;     
+    }
+
+    /* footer section */
+    footer
+    {
+        background: #0B2A40;
+        text-align: center;
+        padding: 10px;
+        color: #B4B4B0;
+    } 
+}
