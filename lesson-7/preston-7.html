@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Weather Keys | The Climate Web Data </title>
+            <meta name="description" content="The Climate Web Data ">
+            <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+            <link rel="stylesheet" href="css/large-7.css">
+            <link rel="stylesheet" href="css/medium-7.css">
+            <link rel="stylesheet" href="css/small-7.css">
+            <link rel="stylesheet" href="../css/normalize.css">
+
+            <script src='scripts/hamburger.js'></script>
+            
+            
+            
+    </head>
+    <body>
+       <div id='content'>
+            <header>
+                <div class='container'>
+                <img src="images/logo.jpg" alt="The logo">
+                <section>
+                  <h2>Weather Keys</h2>
+                  <p class='motto'>The Climate Web Data</p> 
+                </div>          
+            </section>  
+        </header>
+        <nav>
+           <div class="topnav">
+                <a href="javascript:void(0);" onclick="hamburger()" id='menu' class="active">&#9776;</a>
+                    <div id="myLinks">
+                        <ul>
+                            <li><a class='active' href="#">Home</a></li>
+                            <li><a class='active' href="#">Preston</a></li>
+                            <li><a class='active' href="#">Soda Spring</a></li>
+                            <li><a class='active' href="#">Fish Haven</a></li>
+                            <li><a class='active' href="#">Storm Center</a></li>
+                            <li><a class='active' href="#">Gallery</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+        <main>
+            <div>
+                <h1>Preston Idaho</h1>
+            </div>   
+                        
+                        <div id='main1'><div class='overflow'>
+
+                            <picture>
+                                <source media="(max-width: 414px)" srcset="images/preston_small.jpg">
+                                <source media="(max-width: 1024px) and (min-width: 415px)" srcset="images/preston_medium.jpg"> 
+                                <source media="(min-width: 1025px)" srcset="images/preston_large.jpg">
+                                <img id='img_bottom' src="images/preston_large.jpg" alt="the town">
+                            </picture>
+
+                        </div>
+                                <div id='summary'>
+                                        <h2>Weather Summary</h2>
+                                        
+
+                                        <div class='grid-container'>
+                                                <div class='item1'>Currently:</div>
+                                                <div class='item2'>Sunny</div>
+                                                <div class='item3' >High:</div>
+                                                <div id='TemperatureTd' class='item4'>49<span>º F</span></div>
+                                                <div class='item5'>Wind Chill:</div>
+                                                <div id='outputTd' class='item6'></div>
+                                                <div class='item7'>Humedity:</div>
+                                                <div class='item8'>69%</div>
+                                                <div class='item9'>Wind Speed:</div>
+                                                <div id= 'WindTd' class='item10'>5<span> mph</span></div>
+                                        </div>
+                                        
+                                </div>                        
+            </div>
+           
+            <div id='forecast'><h2>5 Days Forecast</h2><img id='forecast_img' src="images/forecast.png" alt="forecast"></div>
+            <article>
+                    <div>
+                        <h2>Rainfall in Preston</h2>
+                        <h3>By weatherspark.com</h3>
+                        <picture>
+                                <source media="(max-width: 414px)" srcset="images/article_small.jpg">
+                                <source media="(min-width: 415px)" srcset="images/article_medium_and_large.jpg">   
+                                <img src="images/article_medium_and_large.jpg" alt="the town">
+                            </picture>
+                        <p>To show variation within the months and not just the monthly totals, we show the rainfall accumulated over a sliding 31-day period centered around each day of the year. Preston experiences some seasonal variation in monthly rainfall.
+                                Rain falls throughout the year in Preston. The most rain falls during the 31 days centered around May 19, with an average total accumulation of 1.8 inches.
+                                The least rain falls around July 9, with an average total accumulation of 0.5 inches. <a href="#"> See more</a><br> </p>
+                    </div>
+            </article>
+            <div id='contact_area'>
+                <h2>Contact information</h2>
+                <picture>
+                    <source media="(max-width: 414px)" srcset="images/map_small.jpg">
+                    <source media="(min-width: 415px)" srcset="images/map_medium_and_large.jpg">   
+                    <img id='map' class="overflow_map" src="images/map_medium_and_large.jpg" alt="map">
+                </picture>
+                <p class='contact contact_title'> Weather Key Site </p>
+                <p class='contact'>Main Office -  Hobson Ave 10100 - Sacramento</p>
+                <p class='contact'>info@wheatherkey.com</p>
+                <p class='contact'>923749324924</p>
+                <p class='contact'>info@wheatherkey.com</p>
+                <div class='separator separator_pos'>
+                    <div class='social'><img class='img_social' src="images/facebook.png" alt="facebook"></div>
+                    <div class='social'><img class='img_social' src="images/twitter.png" alt="twitter"></div>
+                    <div class='social'><img class='img_social' src="images/pinterest.png" alt="pinterest"></div>
+                    <div class='social'><img class='img_social' src="images/wsp.png" alt="whatsapp"></div>
+                </div>
+                
+            </div>          
+        </main>
+        <footer>
+            <div>
+                <p>&copy;2019 - Weather Key | Atributions | Marcelo Campana </p>
+                <p id="outputPg"></p>
+            </div>    
+        </footer>
+    </div> 
+    <script src='scripts/currentdate.js'></script>
+    <script src='scripts/windchill.js'></script>  
+    </body>
+</html>
+           
