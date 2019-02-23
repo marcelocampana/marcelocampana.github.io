@@ -1,4 +1,4 @@
-@media screen and (max-width:1024px) and (min-width:492px) {
+@media screen and (max-width:1024px) and (min-width:659px) {
 
     /* html elements  */ 
     h1
@@ -295,49 +295,46 @@
     {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 15px;
-        justify-content: space-around;
+        justify-content: space-evenly;
         grid-template-areas:
         "item-gallery-img1 item-gallery-img2"
         "item-gallery-img3 item-gallery-img4"
         "item-gallery-img5 item-gallery-img6";
         margin: 0 auto;
-        width:70%;  
-        margin: 1rem auto; 
+        width:50%;  
         margin-bottom: 50px;
      
     }
     .gallery-img1
     {
         grid-area: item-gallery-img1;
-        width: 250px;
+        
     }
     .gallery-img2
     {
         grid-area: item-gallery-img2;
-        width: 250px;
+        
     }
     .gallery-img3
     {
         grid-area: item-gallery-img3;
-        width: 250px;
+       
     }
     .gallery-img4
     {
         grid-area: item-gallery-img4;
-        width: 250px;
+        
         
     }
     .gallery-img5
     {
         grid-area: item-gallery-img5;
-        width: 250px;  
+        
     }
     .gallery-img6
     {
         grid-area: item-gallery-img6; 
-        width: 250px;
+        
     }
     /* end grid */ 
 

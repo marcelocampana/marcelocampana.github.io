@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 491px){    
+@media screen and (max-width: 658px){    
     /* html elements  */ 
     h1
     {
@@ -298,9 +298,8 @@
         "item-gallery-img5"
         "item-gallery-img6";
         justify-content: center;
-        margin: 0 auto;
-        width:70%;  
-        margin: 1rem auto; 
+        margin: 0 auto; 
+       
         margin-bottom: 50px;
      
     }
@@ -311,28 +310,28 @@
     .gallery-img2
     {
         grid-area: item-gallery-img2;
-        width: 300px;
+       
     }
     .gallery-img3
     {
         grid-area: item-gallery-img3;
-        width: 300px;
+        
     }
     .gallery-img4
     {
         grid-area: item-gallery-img4;
-        width: 300px;
+      
         
     }
     .gallery-img5
     {
         grid-area: item-gallery-img5;
-        width: 300px;   
+        
     }
     .gallery-img6
     {
         grid-area: item-gallery-img6; 
-        width: 300px; 
+        
     }
     /* end grid */ 
 
@@ -344,7 +343,7 @@
     }
     .gal-img
     {
-        width: 300px;
+        width: 100%;
         height: auto;
         margin: 0;
     
