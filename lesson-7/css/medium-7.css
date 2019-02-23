@@ -295,7 +295,7 @@
     {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-content: space-evenly;
+        justify-content: center;
         grid-template-areas:
         "item-gallery-img1 item-gallery-img2"
         "item-gallery-img3 item-gallery-img4"
