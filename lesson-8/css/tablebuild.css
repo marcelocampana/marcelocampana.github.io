@@ -1,10 +1,9 @@
 
-
-    h1
+    body
     {
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0 auto;
         text-align: center;
-        font-family: Ubuntu, sans-serif;
-
     }
     h3
     {
@@ -14,12 +13,10 @@
     }
     table
     {
-        font-family: Ubuntu, sans-serif;
         color: black;
         border-spacing: 1px;
-        box-shadow: 10px 10px 10px  #628ca6;;
-        margin: 0 auto;
-        
+        box-shadow: 8px 8px 8px  #628ca6;
+        margin: 0 auto;   
     }
     th
     {
@@ -29,13 +26,13 @@
         font-size: 25px;
     }
     th, td {
-        padding: 15px;
+        padding: 10px 15px 10px 15px;
         text-align: center;
         font-size: 18px;
     }
     thead
     {
-        background-color: #7fb9c2 ;    
+        background-color: #7fb9c2 ;
     }
     tbody tr:nth-child(odd) 
     {
