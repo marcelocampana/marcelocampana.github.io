@@ -55,3 +55,8 @@
         background-color: #628ca6;
         color: white;
     }
+    tbody tr:nth-child(6) td:first-child 
+    {
+        font-style: italic;
+    }
+      
