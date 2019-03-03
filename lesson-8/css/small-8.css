@@ -404,7 +404,7 @@
     input[type="submit"]
     { 
         background-color: #FF8000; 
-        margin: 20px 0 20px 0 ;
+        margin: 20px 10% 20px 10% ;
         height: 30px;
         width: 80%;
         color: #fff;
