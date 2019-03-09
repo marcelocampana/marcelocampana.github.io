@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Gallery | Weather Keys </title>
+            <meta name="description" content="The Climate Web Data ">
+            <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+            <link rel="stylesheet" href="css/large-8.css">
+            <link rel="stylesheet" href="css/small-8.css">
+            <link rel="stylesheet" href="css/medium-8.css">
+            <link rel="stylesheet" href="../css/normalize.css">
+            <script src='scripts/hamburger.js'></script>   
+    </head>
+    <body id='content'>
+        <div class="container">
+        <header>
+            <div class='item-header'>
+                    <div class='container-hd'>
+                            <img src="images/logo.jpg" alt="The logo">
+                            <section>
+                              <h2>Weather Keys</h2>
+                              <p class='motto'>The Climate Web Data</p>         
+                            </section>
+                        </div> 
+            </div>
+        </header>
+        <nav>
+                    <div class="topnav">
+                        <a href="javascript:void(0);" onclick="hamburger()" id='menu' class="active">&#9776;</a>
+                            <div id="myLinks">
+                                <ul>
+                                    <li><a class='active' href="preston-8.html">Home</a></li>
+                                    <li><a class='active' href="#">Preston</a></li>
+                                    <li><a class='active' href="#">Soda Spring</a></li>
+                                    <li><a class='active' href="#">Fish Haven</a></li>
+                                    <li><a class='active' href="stormcenter.html">Storm Center</a></li>
+                                    <li><a class='active' href="gallery-8.html">Gallery</a></li>
+                                </ul>
+                            </div>
+                    </div> 
+        </nav>
+        <main>
+        <script>    
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myArr = JSON.parse(this.responseText);
+                    document.getElementById("demo").innerHTML = myArr[0];
+                }
+            };
+            xmlhttp.open("GET", "txt/towns.txt", true);
+            xmlhttp.send();
+        </script>
+
+            <div id="demo">
+
+            </div>
+        </main>
+        <footer>
+            <div class='item-footer'>    
+                <div>
+                    <p>&copy;2019 - Weather Keys | Atributions | Marcelo Campana </p>
+                    <p id="outputPg"></p>
+                </div>
+            </div>
+        </footer> 
+        </div>
+        <script src='scripts/currentdate.js'></script>
+        <script src='scripts/windchill.js'></script>  
+    </body>
+</html>
+           
