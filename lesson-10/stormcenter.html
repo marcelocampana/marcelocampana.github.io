@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Storm Center | Weather Keys</title>
+            <meta name="description" content="Storm center report ">
+            <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+            <link rel="stylesheet" href="css/large-10.css">
+            <link rel="stylesheet" href="css/small-10.css">
+            <link rel="stylesheet" href="css/medium-10.css">
+            <link rel="stylesheet" href="../css/normalize.css">
+            <script src='scripts/hamburger.js'></script>
+            <script src='scripts/rating.js'></script>   
+    </head>
+    <body id='content'>
+        <div class="container">
+        <header>
+            <div class='item-header'>
+                    <div class='container-hd'>
+                            <img src="images/logo.jpg" alt="The logo">
+                            <section>
+                              <h2>Weather Keys</h2>
+                              <p class='motto'>The Climate Web Data</p>         
+                            </section>
+                        </div> 
+            </div>
+        </header>
+        <nav>
+            <div class="topnav">
+                        <a href="javascript:void(0);" onclick="hamburger()" id='menu' class="active">&#9776;</a>
+                            <div id="myLinks">
+                                <ul>
+                                    <li><a class='active' href="index.html">Home</a></li>
+                                    <li><a class='active' href="preston-10.html">Preston</a></li>
+                                    <li><a class='active' href="#">Soda Spring</a></li>
+                                    <li><a class='active' href="#">Fish Haven</a></li>
+                                    <li><a class='active' href="stormcenter.html">Storm Center</a></li>
+                                    <li><a class='active' href="gallery-10.html">Gallery</a></li>
+                                </ul>
+                            </div>
+            </div>
+        </nav>
+    <main>
+            <h1>Send us your Storm Report</h1>
+        <form action="thanks.html">       
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="idName">Full Name*:</label><br>
+                <input type="text" name="iName" id="idName" required pattern="[A-Za-z].{5,}">
+                <label for="idMail">Email*:</label>
+                <input type="email" name="iMail" id="idMail" placeholder="name@youremail.com">
+                <label for="idTel">Phone*:</label>
+                <input type="tel" name="iTel" name="idTel" required >
+                <label for="idZip">Zip Code*:</label>
+                <input type="number" name="iZip" id="idZip" required>
+            </fieldset>
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label for="idStormDate">Storm Date:</label>
+            <input type="date" name="iStormDate" id="idStormDate">
+            <datalist id="idList">
+                    <option value="Flash Flood">
+                    <option value="Hail"> 
+                    <option value="Hurricane"> 
+                    <option value="Thunderstorm">
+                    <option value="Tornado">           
+            </datalist>
+            <label for="iStormType">Storm Type:</label>
+            <input list="idList" name="iStormType" id="idDatalist">
+            <label for="idStormSeverety">Storm Severety (1-10):</label><br>
+            <input type="range" name="iStormSeverety"  id="idStormSeverety" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span><br><br>
+            <label for="idStormRegion">Storm Region:</label>
+            <select name="iStormRegion" id="idStormRegion"> 
+                <option value="" selected disabled>Select Region</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
+            </select><br>
+            
+      
+            <label for="idUserIn-dangerLevel">User In-Danger Level :</label><br>
+            <input type="radio" name="iUserIn-dangerLevel" id="idUserIn-dangerLevel_yes" value="yes">
+            <label for="idUserIn-dangerLevel_yes">Yes</label><br>
+            <input type="radio" name="iUserIn-dangerLevel" id="idUserIn-dangerLevel_maybe" value="maybe">
+            <label for="idUserIn-dangerLevel_maybe">Maybe</label><br>
+            <input type="radio" name="iUserIn-dangerLevel" id="idUserIn-dangerLevel_no" value="no">
+            <label for="idUserIn-dangerLevel_no">No</label><br>
+       
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information or Comments</legend>   
+            <textarea name="iAditionalInfo" id="idAditionalInfo"  rows="10" cols="50"></textarea>
+        </fieldset>         
+            <input type="submit"  value="Send Report " class="submitBtn">
+        </form>
+  
+    </main>
+    <footer>
+            <div class='item-footer'>    
+                <div>
+                    <p>&copy;2019 - Weather Keys | Atributions | Marcelo Campana </p>
+                    <p id="outputPg"></p>
+                </div>
+            </div>
+        </footer> 
+        </div>
+        <script src='scripts/currentdate.js'></script>
+    </body>
+</html>
+           
