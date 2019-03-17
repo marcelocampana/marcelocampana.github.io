@@ -42,7 +42,7 @@ document.getElementById('item-day4').innerHTML = days[actualMDay(actualDay4)];
 document.getElementById('item-day5').innerHTML = days[actualMDay(actualDay5)];
 
 var forecastObj = new XMLHttpRequest();
-forecastObj.open ('GET','http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=d9c8053c3b7be7af631bdd13d54058f1', true)
+forecastObj.open ('GET','https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=d9c8053c3b7be7af631bdd13d54058f1', true)
 forecastObj.send();
 
 forecastObj.onload = function(){
