@@ -50,23 +50,23 @@ forecastObj.onload = function(){
     console.log(responseJsonObj);
 
     var iconcode = responseJsonObj.list[5].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+var icon_path = 'https://openweathermap.org/img/w/' + iconcode + ".png";
 document.getElementById('item-iconDay1').src = icon_path;
 
 var iconcode = responseJsonObj.list[13].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+var icon_path = 'https://openweathermap.org/img/w/' + iconcode + ".png";
 document.getElementById('item-iconDay2').src = icon_path;
 
 var iconcode = responseJsonObj.list[21].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+var icon_path = 'https://openweathermap.org/img/w/' + iconcode + ".png";
 document.getElementById('item-iconDay3').src = icon_path;
 
 var iconcode = responseJsonObj.list[29].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+var icon_path = 'https://openweathermap.org/img/w/' + iconcode + ".png";
 document.getElementById('item-iconDay4').src = icon_path;
 
 var iconcode = responseJsonObj.list[37].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+var icon_path = 'https://openweathermap.org/img/w/' + iconcode + ".png";
 document.getElementById('item-iconDay5').src = icon_path;
 
 document.getElementById('item-tempDay1').innerHTML = responseJsonObj.list[5].main.temp;
