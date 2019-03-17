@@ -44,7 +44,7 @@
             <div class='item-hero'></div>
                 <div id='main1'>
                     <div>
-                            <h1>Preston Idaho</h1>
+                            <h1 id='current-city'></h1>
                     </div> 
                     <picture>
                             <source media="(max-width: 682px) and  (min-width: 1px)" srcset="images/preston_small.jpg">
@@ -56,23 +56,39 @@
                             <h2>Weather Summary</h2>
                             <div class='grid-container'>
                                     <div class='itemLeft'>Currently:</div>
-                                    <div class='itemRight'>Sunny</div>
+                                    <div id='currently' class='itemRight'></div>
                                     <div class='itemLeft' >High:</div>
-                                    <div id='TemperatureTd' class='itemRight'>49<span>º F</span></div>
+                                    <div id='TemperatureTd' class='itemRight'><span id="HighTemp"></span>º F</div>
                                     <div class='itemLeft'>Wind Chill:</div>
                                     <div id='outputTd' class='itemRight'></div>
-                                    <div class='itemLeft'>Humedity:</div>
-                                    <div class='itemRight'>69%</div>
+                                    <div class='itemLeft'>Humidity:</div>
+                                    <div class='itemRight'><span id="curr-humidity"></span>%</div>
                                     <div class='itemLeft'>Wind Speed:</div>
-                                    <div id= 'WindTd' class='itemRight'>5<span> mph</span></div>
+                                    <div id= 'WindTd' class='itemRight'><span id='curr-winSpeed'></span> mph</div>
                             </div>           
                     </div>
                 </div>           
             <div class='item-forecast'>
-                <div id='forecast'>
                     <h2>5 Days Forecast</h2>
-                    <img id='forecast_img' src="images/forecast.png" alt="forecast">
-                </div>
+                            <div class='grid-container-forecast'>
+                                    <div id='item-day1'></div>
+                                    <div id='item-day2'></div>
+                                    <div id='item-day3'></div>
+                                    <div id='item-day4'></div>
+                                    <div id='item-day5'></div>
+                                    <div><img src='images/placeholder.jpg'  id="item-iconDay1"  alt="the town"></div>
+                                    <div><img src='images/placeholder.jpg'  id="item-iconDay2"  alt="the town"></div>
+                                    <div><img src='images/placeholder.jpg'  id="item-iconDay3"  alt="the town"></div>
+                                    <div><img src='images/placeholder.jpg'  id="item-iconDay4"  alt="the town"></div>
+                                    <div><img src='images/placeholder.jpg'  id="item-iconDay5"  alt="the town"></div>
+                                    <div><span id="item-tempDay1"></span>º F</div>
+                                    <div><span id="item-tempDay2"></span>º F</div>
+                                    <div><span id="item-tempDay3"></span>º F</div>
+                                    <div><span id="item-tempDay4"></span>º F</div>
+                                    <div><span id="item-tempDay5"></span>º F</div>
+                            </div>           
+  
+        
             </div>
             <div class='item-article'> 
                 <article>
@@ -127,7 +143,9 @@
         </footer> 
         </div>
         <script src='scripts/currentdate.js'></script>
-        <script src='scripts/windchill.js'></script>  
+        <script src='scripts/weatherSummary.js'></script>
+        <script src='scripts/forecast.js'></script> 
+        
     </body>
 </html>
            

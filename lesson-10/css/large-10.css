@@ -139,16 +139,99 @@
     }
 
     /* forecast section */
-    #forecast
-    {      
+    .item-forecast
+    {
+        width:60%;  
+        margin: 0 auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .item-forecast h2
+    {
         text-align: center;
-        padding: 20px;
-        margin-top: 10px;   
+        margin-bottom: 40px;
+        color: #FF8000 ;
     }
-    #forecast_img
-    {      
-        width: 60%;  
+    .grid-container-forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 20px 50px 40px;
+        justify-content: center;
+        justify-items: center;
+        grid-column-gap: 2px;
+        grid-template-areas: 
+        "day1 day2 day3 day4 day5"
+        "iconDay1 iconDay2 iconDay3 iconDay4 iconDay5"
+        "tempDay1 tempDay2 tempDay3 tempDay4 tempDay5";
+       font-size: 22px;
+   
+    
     }
+    .item-day1
+    {
+        grid-area: day1;
+    }
+    .item-day2
+    {
+        grid-area: day2;
+    }
+    .item-day3
+    {
+        grid-area: day3;
+    }
+    .item-day4
+    {
+        grid-area: day4;
+    }
+    .item-day5
+    {
+        grid-area: day5;
+    }
+    .item-iconDay1
+    {
+        grid-area: iconDay1;
+       
+    }
+    .item-iconDay2
+    {
+        grid-area: iconDay2;
+       
+    }
+    .item-iconDay3    {
+        grid-area: iconDay3;
+    }
+    .item-iconDay4
+    {
+        grid-area: iconDay4;
+    }
+    .item-iconDay5
+    {
+        grid-area: iconDay5;
+    }
+    .item-tempDay1
+    {
+        grid-area: tempDay1;
+    }
+    .item-tempDay2
+    {
+        grid-area: tempDay2;
+    }
+    .item-tempDay3
+    {
+        grid-area: tempDay3;
+       
+    }
+    .item-tempDay4
+    {
+        grid-area: tempDay4;
+    }
+    .item-tempDay5
+    {
+        grid-area: tempDay5;
+    }
+
+
+    
 
     /* article section */
 

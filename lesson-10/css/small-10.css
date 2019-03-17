@@ -148,7 +148,7 @@
     }
 
     /* forecast section */
-    #forecast
+    .item-forecast
     {      
        display:none;
     }
