@@ -24,7 +24,6 @@ var digits = 2;
 var multiplier = Math.pow(10, digits);
 var result= Math.round(windChillFactor * multiplier) / multiplier + "º F";
 document.getElementById('outputTd').innerHTML = result;
-
 }
 
 

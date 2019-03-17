@@ -75,8 +75,4 @@ document.getElementById('item-tempDay3').innerHTML = responseJsonObj.list[21].ma
 document.getElementById('item-tempDay4').innerHTML = responseJsonObj.list[29].main.temp;
 document.getElementById('item-tempDay5').innerHTML = responseJsonObj.list[37].main.temp;
 
-
-
-
-
 }
