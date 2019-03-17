@@ -1,6 +1,6 @@
 
 var forecastObj = new XMLHttpRequest();
-forecastObj.open ('GET','http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8dc7d24dc0c4e4babe471e12034b5a39', true)
+forecastObj.open ('GET','https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8dc7d24dc0c4e4babe471e12034b5a39', true)
 forecastObj.send();
 
 forecastObj.onload = function(){
