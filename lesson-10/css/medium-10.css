@@ -558,6 +558,44 @@
          color:#FF8000;
          margin-right: 2px;
      }
+     .container-event
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+        justify-content: center;
+        justify-items: center;
+        width:95%;  
+        margin: 0 auto; 
+        grid-template-areas:
+        "item-event-title"
+        "item-event1" 
+        "item-event2" 
+        "item-event3"
+        
+     
+    
+    }
+    .event-title
+    {
+        grid-area: item-event-title
+    }
+    .event1
+    {
+        grid-area: item-event1;
+    }
+    .event2
+    {
+        grid-area: item-event2;
+    }
+    .event3
+    {
+        grid-area: item-event3;
+    }
+    section
+    {
+        padding: 70px;
+    }
 }
 
    

@@ -1,38 +1,3 @@
-
-var forecastObj = new XMLHttpRequest();
-forecastObj.open ('GET','http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=d9c8053c3b7be7af631bdd13d54058f1', true)
-forecastObj.send();
-
-forecastObj.onload = function(){
-    var responseJsonObj = JSON.parse(forecastObj.responseText);
-    console.log(responseJsonObj);
-
-document.getElementById('item-tempDay1').innerHTML = responseJsonObj.list[7].main.temp;
-document.getElementById('item-tempDay2').innerHTML = responseJsonObj.list[15].main.temp;
-document.getElementById('item-tempDay3').innerHTML = responseJsonObj.list[23].main.temp;
-document.getElementById('item-tempDay4').innerHTML = responseJsonObj.list[31].main.temp;
-document.getElementById('item-tempDay5').innerHTML = responseJsonObj.list[39].main.temp;
-
-var iconcode = responseJsonObj.list[7].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
-document.getElementById('item-iconDay1').src = icon_path;
-
-var iconcode = responseJsonObj.list[15].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
-document.getElementById('item-iconDay2').src = icon_path;
-
-var iconcode = responseJsonObj.list[23].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
-document.getElementById('item-iconDay3').src = icon_path;
-
-var iconcode = responseJsonObj.list[31].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
-document.getElementById('item-iconDay4').src = icon_path;
-
-var iconcode = responseJsonObj.list[39].weather[0].icon;
-var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
-document.getElementById('item-iconDay5').src = icon_path;
-
 var mDay= new Date();
 var actualDay1 = (mDay.getDay())+1;
 var actualDay2 = (mDay.getDay())+2;
@@ -75,5 +40,43 @@ document.getElementById('item-day2').innerHTML = days[actualMDay(actualDay2)];
 document.getElementById('item-day3').innerHTML = days[actualMDay(actualDay3)];
 document.getElementById('item-day4').innerHTML = days[actualMDay(actualDay4)];
 document.getElementById('item-day5').innerHTML = days[actualMDay(actualDay5)];
+
+var forecastObj = new XMLHttpRequest();
+forecastObj.open ('GET','http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=d9c8053c3b7be7af631bdd13d54058f1', true)
+forecastObj.send();
+
+forecastObj.onload = function(){
+    var responseJsonObj = JSON.parse(forecastObj.responseText);
+    console.log(responseJsonObj);
+
+    var iconcode = responseJsonObj.list[5].weather[0].icon;
+var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+document.getElementById('item-iconDay1').src = icon_path;
+
+var iconcode = responseJsonObj.list[13].weather[0].icon;
+var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+document.getElementById('item-iconDay2').src = icon_path;
+
+var iconcode = responseJsonObj.list[21].weather[0].icon;
+var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+document.getElementById('item-iconDay3').src = icon_path;
+
+var iconcode = responseJsonObj.list[29].weather[0].icon;
+var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+document.getElementById('item-iconDay4').src = icon_path;
+
+var iconcode = responseJsonObj.list[37].weather[0].icon;
+var icon_path = 'http://openweathermap.org/img/w/' + iconcode + ".png";
+document.getElementById('item-iconDay5').src = icon_path;
+
+document.getElementById('item-tempDay1').innerHTML = responseJsonObj.list[5].main.temp;
+document.getElementById('item-tempDay2').innerHTML = responseJsonObj.list[13].main.temp;
+document.getElementById('item-tempDay3').innerHTML = responseJsonObj.list[21].main.temp;
+document.getElementById('item-tempDay4').innerHTML = responseJsonObj.list[29].main.temp;
+document.getElementById('item-tempDay5').innerHTML = responseJsonObj.list[37].main.temp;
+
+
+
+
 
 }

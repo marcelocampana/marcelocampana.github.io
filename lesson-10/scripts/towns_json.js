@@ -21,9 +21,6 @@ var xmlhttp = new XMLHttpRequest();
             document.getElementById("currentPopulation2").innerHTML = myArr.towns[6].currentPopulation;
             document.getElementById("averageRainfall2").innerHTML = myArr.towns[6].averageRainfall;
 
-            document.getElementById("event1").innerHTML = myArr.towns[4].events[0];
-            document.getElementById("event2").innerHTML = myArr.towns[4].events[1];
-            document.getElementById("event3").innerHTML = myArr.towns[4].events[2];
             
             }
         }
