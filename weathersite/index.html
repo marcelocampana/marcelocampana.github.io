@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Towns Statistical Data | Weather Keys </title>
+            <meta name="description" content="The Climate Web Data ">
+            <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+            <link rel="stylesheet" href="css/large.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="../css/normalize.css">
+            <script src='scripts/hamburger.js'></script>  
+            
+           
+    </head>
+    <body id='content'>
+        <div class="container">
+        <header>
+            <div class='item-header'>
+                    <div class='container-hd'>
+                            <img src="images/logo.jpg" alt="The logo">
+                            <section>
+                              <h2>Weather Keys</h2>
+                              <p class='motto'>The Climate Web Data</p>         
+                            </section>
+                        </div> 
+            </div>
+        </header>
+        <nav>
+                    <div class="topnav">
+                        <a href="javascript:void(0);" onclick="hamburger()" id='menu' class="active">&#9776;</a>
+                            <div id="myLinks">
+                                <ul>
+                                        <li><a class='btn-current' href="index.html">Home</a></li>
+                                        <li><a class='active' href="preston.html">Preston</a></li>
+                                        <li><a class='active' href="soda-springs.html">Soda Spring</a></li>
+                                        <li><a class='active' href="fish-haven.html">Fish Haven</a></li>
+                                        <li><a class='active' href="stormcenter.html">Storm Center</a></li>
+                                        <li><a class='active' href="gallery.html">Gallery</a></li>
+                                </ul>
+                            </div>
+                    </div> 
+        </nav>
+        <main>
+
+        <br><h1>– Know Weather Data Keys for Idaho's Towns – </h1>
+        <div class="container-towns"> 
+                
+            <div class="towns">   
+                <a href="preston.html"><div class="title-town" id="name0"></div></a>
+                <div class= "subtitle" id="motto0"></div>
+                <div ><img class="town-img" src="images/preston_medium.jpg" alt="the town"></div>
+                <div><p class="boldText">Year Founded: </p><p id="yearFounded0"></p></div>
+                <div><p class="boldText">Population: </p><p id="currentPopulation0"></p></div>
+                <div><p class="boldText">Annual Rainfall:</p><p id="averageRainfall0"></p></div>
+            </div>
+            <div class="towns"> 
+                <a href="soda-springs.html"><div class="title-town" id="name1"></div></a>
+                <div class= "subtitle" id="motto1"></div>
+                <div><img class="town-img" src="images/soda_sprins_medium.jpg" alt="the town"></div>
+                <div><p class="boldText">Year Founded: </p><p id="yearFounded1"></p></div>
+                <div><p class="boldText">Population: </p><p id="currentPopulation1"></p></div>
+                <div><p class="boldText">Annual Rainfall:</p><p id="averageRainfall1"></p></div>
+            </div>
+            <div class="towns"> 
+                <a href="fish-haven.html"><div class="title-town" id="name2"></div></a>
+                <div class= "subtitle" id="motto2"></div>
+                <div ><img class="town-img" src="images/fish_haven_medium.jpg" alt="the town"></div>
+                <div><p class="boldText">Year Founded: </p><p id="yearFounded2"></p></div>
+                <div><p class="boldText">Population: </p><p id="currentPopulation2"></p></div>
+                <div><p class="boldText">Annual Rainfall:</p><p id="averageRainfall2"></p></div>
+            </div>
+        </div>
+        <section class="section-events-index">
+                <div class="container-events">
+                    <div class='events-title'><h2>Next Events</h2></div>
+                    <div class='events1' >Preston<p id='event1'></p></div>
+                    <div class='events2' >Soda Springs<p id='event2'></p></div>
+                    <div class='events3' >Fish Haven<p id='event3'></p></div>
+                </div>
+            </section> 
+            <div class='item-contact'>
+                <div class='container-contact'>
+                    <div class='title'></div>
+                    <div class='map'><picture>
+                            <source media="(max-width: 682px)" srcset="images/map_small.jpg">
+                            <source media="(min-width: 583px)" srcset="images/map_medium_and_large.jpg">   
+                            <img id='map' class="overflow_map" src="images/map_medium_and_large.jpg" alt="map">
+                        </picture>
+                    </div>
+                    <div class='contact-title'><h2>Contact Information</h2></div>
+                    <div class='site'><h3>Weather Keys Site</h3></div>
+                    <div class='address'>Main Office -  Hobson Ave 10100 - Sacramento</div>
+                    <div class='address-icon'><img class='litle-img' src="images/gps.png" alt="address"></div>
+                    <div class='phone'>923.749.3249</div>
+                    <div class='phone-icon'><img class='litle-img' src="images/phone.png" alt="phone"></div>
+                    <div class='mail'>info@wheatherkey.com</div>
+                    <div class='mail-icon'><img class='litle-img' src="images/mail.png" alt="mail"></div>
+                    <div class='social'>
+                            <div class='social-inline'><img class='img_social' src="images/facebook.png" alt="facebook"></div>
+                            <div class='social-inline'><img class='img_social' src="images/twitter.png" alt="twitter"></div>
+                            <div class='social-inline'><img class='img_social' src="images/pinterest.png" alt="pinterest"></div>
+                            <div class='social-inline'><img class='img_social' src="images/wsp.png" alt="whatsapp"></div> 
+                    </div>
+                </div>
+            </div>     
+        </main>
+        <footer>
+            <div class='item-footer'>    
+                <div>
+                    <p>&copy;2019 - Weather Keys | Atributions | Marcelo Campana </p>
+                    <p id="outputPg"></p>
+                </div>
+            </div>
+        </footer> 
+        </div>
+        <script src='scripts/events_index.js'></script>
+        <script src='scripts/currentdate.js'></script>
+        <script src='scripts/towns_json.js'></script>
+    </body>
+</html>
+           
