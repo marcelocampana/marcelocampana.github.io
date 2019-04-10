@@ -10,6 +10,9 @@ var xmlhttp = new XMLHttpRequest();
             document.getElementById("Services2_temple_sac").innerHTML = myArr.temple[0].Services[1];
             document.getElementById("Services3_temple_sac").innerHTML = myArr.temple[0].Services[2];
             document.getElementById("Services4_temple_sac").innerHTML = myArr.temple[0].Services[3];
+            document.getElementById("Baptistry_Schedule1_temple_sac").innerHTML = myArr.temple[0].Baptistry_Schedule[0];
+            document.getElementById("Baptistry_Schedule2_temple_sac").innerHTML = myArr.temple[0].Baptistry_Schedule[1];
+
            
 
    

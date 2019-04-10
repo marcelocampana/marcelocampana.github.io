@@ -15,13 +15,13 @@
                 "22 August 2004 Groundbreaking",
                 "3 September 2006 Dedicated"
             ],
-            "Endowment Schedule": [
+            "Endowment_Schedule": [
                 "3:00 PMWalk-ins and Appointments",
                 "5:00 PMWalk-ins and Appointments",
                 "6:30 PMWalk-ins and Appointments",
                 "8:00 PMWalk-ins and Appointments"
             ],
-            "Temple Closures": [
+            "Temple_Closures": [
                 "Thursday, 4 July 2019",
                 "Tuesday, 6 August 2019 - Monday, 19 August 2019",
                 "Saturday, 5 October 2019",
@@ -30,7 +30,7 @@
                 "Tuesday, 24 December 2019",
                 "Wednesday, 25 December 2019"
             ],
-            "Baptistry Schedule": [
+            "Baptistry_Schedule": [
                 "Tuesday, 31 December 2019 (Limited Hours)",
                 "6:00 PM - 9:00 PMChurch Groups - Appointments Only"
             ]
