@@ -3,7 +3,7 @@ var xmlhttp = new XMLHttpRequest();
         if (this.readyState == 4 && this.status == 200) {
             var myArr = JSON.parse(this.responseText);
 
-            document.getElementById("title_temple_sac").innerHTML = myArr.temple.name[0];
+            document.getElementById("title_temple_sac").innerHTML = myArr.temple[1].name;
    
             }
         }
