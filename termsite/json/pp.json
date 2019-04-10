@@ -1,0 +1,15 @@
+{
+    "temple": [
+        {
+            "name": "Sacramento California Temple",
+            "Address": "2110 California Cir Rancho Cordova CA 95742-6415, United States",
+            "Telephone": "(1) 916-357-5870",
+            "Services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ]
+        }
+    ]
+}
