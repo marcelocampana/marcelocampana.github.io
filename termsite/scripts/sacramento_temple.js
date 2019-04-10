@@ -7,5 +7,5 @@ var xmlhttp = new XMLHttpRequest();
    
             }
         }
-        xmlhttp.open("GET", "/json/temples.json", true);
+        xmlhttp.open("GET", "https://marcelocampana.github.io/termsite/json/temples.json", true);
         xmlhttp.send();
