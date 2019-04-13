@@ -143,6 +143,13 @@
         background-image: url('../images/contactus.jpg');
         background-size: cover;
     }
+    .img_head_reception
+    {
+        width: 100%;
+        height: 477px;
+        background-image: url('../images/recep_po.jpg');
+        background-size: cover;
+    }
     .nav_sec
     {
         height: 55px;

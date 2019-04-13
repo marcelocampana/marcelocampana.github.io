@@ -170,6 +170,14 @@ nav li a:hover
     background-size: cover;
     margin-top: -31px
 }
+.img_back_reception
+{
+    width: 100%;
+    height: 377px;
+    background-image: url('../images/recep_po.jpg');
+    background-size: cover;
+    margin-top: -31px
+}
 
 .img_back
 {
