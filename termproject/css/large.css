@@ -149,6 +149,20 @@ nav li a:active,nav li a:hover {
         background-image: url('../images/reservation.jpg');
         background-size: cover;
     }
+    .img_head_services
+    {
+        width: 100%;
+        height: 477px;
+        background-image: url('../images/services_po.jpg');
+        background-size: cover;
+    }
+    .img_head_contact
+    {
+        width: 100%;
+        height: 477px;
+        background-image: url('../images/contactus.jpg');
+        background-size: cover;
+    }
 .nav_sec
 {
     height: 55px;
