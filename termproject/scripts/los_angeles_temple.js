@@ -35,5 +35,5 @@ var xmlhttp = new XMLHttpRequest();
    
             }
         }
-        xmlhttp.open("GET", "https://marcelocampana.github.io/termsite/json/pp.json", true);
+        xmlhttp.open("GET", "https://marcelocampana.github.io/termproject/json/pp.json", true);
         xmlhttp.send();
