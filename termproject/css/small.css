@@ -1,0 +1,856 @@
+@media screen and (max-width:682px) {
+.welcome_text
+{
+color: #ffffff;
+text-align: center;
+font-family: 'Italianno', cursive;
+font-size: 45px;
+padding: 70px 30px 0 30px;
+}
+.welcome_text_litle
+{
+color: #ffffff;
+}
+h2
+{
+color: #CF4D6F;
+text-align: left;
+font-family: 'Italianno', cursive;
+font-size: 25px;
+height:20px ;
+text-align: center;
+}
+h3
+{
+
+text-align: left;
+font-family: 'Questrial',sans-serif;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+}
+h4
+{
+
+text-align: left;
+font-family: 'Questrial',sans-serif;
+font-size: 14px;
+font-weight: bold;
+height:3px ;
+text-align: center;
+}
+.homeTitle
+{
+color: #CF4D6F;
+text-align: center;
+font-family: 'Italianno', cursive;
+font-size: 40px;
+height:20px ;
+}
+.homeTitleLitle
+{
+
+text-align: center;
+font-family: 'Questrial',sans-serif;
+height:20px ;
+margin-bottom: 30px;
+}
+a
+{
+    color: #CC7E85;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Questrial',sans-serif;
+    font-size: 14px;
+    color: #76818E;
+    text-align: center;
+    
+}
+
+#content,form {
+    margin: 0 auto;
+    width: 100%
+}
+
+
+
+header .container-hd,nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.logo
+{ 
+   display:none;
+}
+
+#menu,nav li a {
+    text-decoration: none
+}
+
+#menu {
+    
+    font-size: 25px;
+    justify-items: right;
+}
+.bar
+{
+    display: grid;
+    grid-template-columns: 50% 40% 10%;
+    align-items: center;
+   
+}
+
+nav ul {
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px
+}
+
+.active,nav li a,nav li  {
+    color: #fff
+}
+nav li a:hover
+{
+   color:#C5AFA4;
+}
+
+.active {
+    background-color: #CC7E85;
+}
+
+.btn-current,nav,nav li a:hover {
+    background-color: #CC7E85;
+}
+
+.topnav #myLinks {
+    display: none
+}
+
+.img_back_temple
+{
+    width: 100%;
+    height: 477px;
+    background-image: url('../images/temple_po.jpg');
+    background-size: cover;
+    margin-top: -31px
+}
+.img_back_reservation
+{
+    width: 100%;
+    height: 377px;
+    background-image: url('../images/reservation.jpg');
+    background-size: cover;
+    margin-top: -31px
+}
+.img_back_services
+{
+    width: 100%;
+    height: 377px;
+    background-image: url('../images/services_po.jpg');
+    background-size: cover;
+    margin-top: -31px
+}
+
+.img_back
+{
+    width: 100%;
+    height: 320px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover;
+    margin-top: -31px
+}
+
+.logo_small
+{ 
+
+    margin:20px 0 20px 20px;
+    font-family: 'Italianno', cursive;
+    border: 2px solid #ffffff; 
+    color:#ffffff;
+    padding: 10px 0 10px 0;
+    width: 210px;
+    text-align: center;
+    font-size: 30px; 
+}
+.nav_sec
+{
+    display: none;
+}
+.nav_sec2
+{
+    height: 55px;
+  
+}
+.callActionBtn {
+    background-color: #A36D90;
+    border: 2px solid #ffffff; 
+    color:#ffffff;
+    padding: 20px 0 20px 0;
+    max-width: 181px;
+    text-align: center;
+    margin: 0 auto;
+}
+.requestMoreDetailsBtn {
+    background-color: #A36D90;
+    border: 2px solid #ffffff; 
+    color:#ffffff;
+    padding: 15px 0 15px 0;
+    max-width: 170px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.homeFinalBtn
+{
+    background-color: #C5AFA4;
+    border: 2px solid #ffffff; 
+    color:#ffffff;
+    padding: 15px 0 15px 0;
+    max-width: 170px;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.footerColor
+{
+    background-color: #F8F9F9;
+    height: 550px;
+    
+}
+.contentFooter
+{
+    
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    justify-items: center;
+    grid-column-gap: 2px;
+}
+.logoFooter
+{ 
+    font-family: 'Italianno', cursive;
+    border: 2px solid #CC7E85; 
+    color:#CC7E85;
+    padding: 10px 0 10px 0;
+    width: 210px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px; 
+}
+.lineHighP
+{
+    height:7px ;
+}
+.footerTitle
+{
+    color:#CC7E85; 
+    font-weight: bold;
+    text-align: center;
+}
+.footerText
+{
+    color:#C5AFA4;
+    text-align: center;
+}
+.footerLineBotom
+{
+padding-bottom: 30px;
+border-bottom: 2px solid #C5AFA4; 
+
+}
+.footerTextFin
+{
+    margin-top: 35px;
+    color:#C5AFA4;
+}
+
+
+.container-temple
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: left;
+    grid-column-gap: 60px;
+    margin: 0 auto;
+    width: 100%
+}
+#Address_temple_sac
+{
+    padding:0 20% 0 20%;
+}
+#Address_temple_fre
+{
+    padding:0 20% 0 20%;
+}
+
+.img_temple_sacramento
+{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/temple_sa.jpg');
+    background-size: cover; 
+}
+.img_temple_fresno
+{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/temple_fre.jpg');
+    background-size: cover; 
+}
+.img_temple_los_angeles
+{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/temple_ang.jpg');
+    background-size: cover; 
+}
+.img_temple_newport
+{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/temple_new.jpg');
+    background-size: cover; 
+}
+.temple-item2
+{
+    justify-self: center;
+    padding:0 20% 0 20%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px 20px 20px 20px;
+    grid-column-gap: 2px;
+   
+}
+.weather-title {
+    background-color:#ECE1E8;
+    
+    color:#CF4D6F;
+    padding: 20px 0 20px 0;
+    max-width: 100%;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.weather-content {
+  
+   
+    padding: 20px 30px 20px 30px;
+    max-width: 100%;
+    margin: 20px 0 20px 0;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #76818E;
+    
+    
+}
+.TempleBtn {
+    background-color: #A36D90;
+    border: 2px solid #ffffff; 
+    color:#ffffff;
+    padding: 15px 0 15px 0;
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.activeTempleBtn {
+    background-color: #C5AFA4;
+    border: 2px solid #ffffff; 
+    color:#ffffff;
+    padding: 15px 0 15px 0;
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.services_top
+{
+    margin: 0 auto;
+    width: 80%;
+    list-style-type: none;
+    text-decoration: none
+}
+.amenities
+{
+    background-color: #ECE1E8;
+    padding: 50px;
+    list-style-type: none;
+    text-decoration: none
+}
+ul
+{
+    list-style: none;
+}
+
+.homeRoomsContainer
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .imgHomeRoom1
+    {
+
+
+        width: 100%;
+        height: 250px;
+        background-image: url('../images/suite.jpg');
+        background-size: cover; 
+    }
+    .imgHomeRoom2
+    {
+
+
+    
+        width: 100%;
+        height: 250px;
+        background-image: url('../images/double.jpg');
+        background-size: cover; 
+    
+    }
+    .imgHomeRoom3
+    {
+
+    
+        width: 100%;
+        height: 250px;
+        background-image: url('../images/triple.jpg');
+        background-size: cover; 
+    }
+    .tetxRooms{
+        color: #ffffff;
+        margin-top:100px;
+        text-align: center;
+        font-family: 'Italianno', cursive;
+        font-size: 40px;
+        height:20px ;
+    }
+    .imgHomeServices
+    {
+       display: none;
+    }
+    .homeServicesContent
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 70px auto; 
+        grid-column-gap: 50px;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+    .imgHomeTemple2
+    {
+        width: 100%;
+        height: 250px;
+        background-image: url('../images/temple_sac_sm.jpg');
+        background-size: cover; 
+    }
+    .homeTempleContent
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto; 
+        margin: 0 auto;
+        text-align: center;
+    }
+    .temple_back1 
+    {
+        background: radial-gradient(#ffffff,#ffffff);
+            opacity: .9;
+            filter: alpha(opacity=10);
+        
+    }
+    .temple_back2
+    {
+        background: radial-gradient(#ffffff,#ffffff);
+            opacity: .9;
+            filter: alpha(opacity=10)
+    }
+    .temple_back3 
+    {
+        background: radial-gradient(#ffffff,#ffffff);
+            opacity: .9;
+            filter: alpha(opacity=10);
+            padding: 20px 0 57px 0 ;
+    }
+    .homeTempleTitle    
+    {
+        font-size: 30px;
+        color:#A36D90;
+        text-align: center;
+        padding: 22px 0 10px 0  ;
+    }
+    .nav_sec3
+    {
+        height: 55px;
+        background-color: #ECE1E8;
+    }
+    .recRoomsContainer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px; 
+    margin: 0 auto;
+    width: 100%;
+}
+.imgRecRoom1
+{
+
+
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover; 
+}
+.imgRecRoom2
+{
+
+
+   
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover; 
+   
+}
+.imgRecRoom3
+{
+
+   
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover; 
+} 
+.imgRecRoom4
+{
+
+
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover; 
+}
+.imgRecRoom5
+{
+
+
+   
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover; 
+   
+}
+.imgRecRoom6
+{
+
+   
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover; 
+}
+.textRoomsRec{
+    color: #ffffff;
+    margin-top:150px;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+    height:20px ;
+}
+.recepServicesContent
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px auto; ;
+    grid-template-areas: 
+    "itemTitleRecep1"
+    "itemContentRecep1"
+    "itemTitleRecep2"
+    "itemContentRecep2";
+
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.imgRecep1
+{
+    grid-area:itemContentRecep1;
+   
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover; 
+    margin-bottom: 50px;
+}
+.imgRecep2
+{
+
+    grid-area:itemContentRecep2;
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/img_back.jpg');
+    background-size: cover; 
+}
+.spaceTop
+{
+ margin-top: 250px;
+}
+.titleRecep
+{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #76818E;
+}
+
+.recepServiceTitle
+{
+
+    font-size: 25px;
+    color:#A36D90;
+    text-align: center;
+    padding: 20px 0 20px 0  ;
+}
+.recepServiceTitle1
+{
+    grid-area:itemTitleRecep1;
+}
+.recepServiceTitle2
+{
+    grid-area:itemTitleRecep2;
+}
+.recepTitleLitle
+{
+text-align: center;
+font-family: 'Questrial',sans-serif;
+height:20px ;
+padding: 0 30px 0 30px;
+margin-bottom: 50px;
+}
+.formReserContent
+
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25px 40px 25px 40px  25px 40px  25px 40px  25px 40px  25px 40px 25px 40px 25px 40px 40px 30px 30px;
+    grid-template-areas: 
+    "itemLabel1"
+    "itemInput1"
+    "itemLabel2"
+    "itemInput2"
+    "itemLabel3"
+    "itemInput3"
+    "itemLabel4"
+    "itemInput4"
+    "itemLabel5"
+    "itemInput5"
+    "itemLabel6"
+    "itemInput6"
+    "itemLabel7"
+    "itemInput7"
+    "itemLabel8"
+    "itemInput8"
+    "itemLabel9"
+    "itemInput9"
+    "itemLabel10";
+    margin: 0 auto;
+    width: 98%;
+}
+.Lavel1
+{
+    grid-area: "itemLabel1"  
+}
+.Lavel2
+{
+    grid-area: "itemLabel2"  
+}
+.Lavel3
+{
+    grid-area: "itemLabel3"  
+}
+.Lavel4
+{
+    grid-area: "itemLabel4"  
+}
+.Lavel5
+{
+    grid-area: "itemLabel5"  
+}
+.Lavel6
+{
+    grid-area: "itemLabel6"  
+}
+.Lavel7
+{
+    grid-area: "itemLabel7"  
+}
+.Lavel8
+{
+    grid-area: "itemLabel8"  
+}
+.Lavel9
+{
+    grid-area: "itemLabel9"  
+}
+.Input1
+{
+    grid-area: "itemInput1"  
+}
+.Input2
+{
+    grid-area: "itemInput2"  
+}
+.Input3
+{
+    grid-area: "itemInput3"  
+}
+.Input4
+{
+    grid-area: "itemInput4"  
+}
+.Input5
+{
+    grid-area: "itemInput5"  
+}
+.Input6
+{
+    grid-area: "itemInput6"  
+}
+.Input7
+{
+    grid-area: "itemInput7"  
+}
+.Input8
+{
+    grid-area: "itemInput8"  
+}
+.Input9
+{
+    grid-area: "itemInput9";
+   
+}
+  
+  .inline-radio {
+      display: flex;
+    border-radius: 20px;
+      overflow: hidden;
+    border: 1px solid #b6b6b6;
+  
+  }
+      div {
+          position: relative;
+          flex: 1;
+      }
+  
+      input {
+      width: 98%;
+      height: 20px;
+          
+      }
+  
+      label {
+          position: absolute;
+          top: 0; left: 0;
+          width: 100%;
+          height: 100%;
+          background: #fff;
+          display: flex;
+          padding-top: 3px;
+          pointer-events: none;
+          border-right: 1px solid #76818E;
+      }
+  
+      div:last-child label {
+          border-right: 0;
+      }
+  
+      input:checked + label {
+          background:#A36D90;
+          font-weight: 500;
+          color: #fff;
+      }
+   
+
+    #idDatalist,input[type=date],input[type=email],input[type=number],input[type=tel],input[type=text] {
+
+        margin-bottom: 20px;
+        border: 1px solid #b6b6b6;
+        height: 20px;
+
+    }
+
+    select {
+        border: 1px solid #b6b6b6;
+        width: 98%;
+    }
+
+    form input:required:valid {
+        border-left: 3px solid #76818E
+    }
+
+    form input:required:invalid,input:focus:invalid {
+        border-left: 3px solid #CC7E85
+    }
+
+    textarea {
+        border: 1px solid #b6b6b6;
+        width: 98%;
+    
+    
+    }
+
+
+    input[type=submit] {
+        background-color: #A36D90;
+        margin: 20px 0;
+        height: 30px;
+        width: 80%;
+        color: #fff;
+        border: solid 1px #fff;
+        font-size: 15px
+    }
+
+    input[type=submit]:hover {
+        background-color: #CC7E85
+    }
+
+    #thanksContent {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        padding: 100px
+    }
+    .nondisplay
+    {
+        display: none;
+    }
+    .theMap
+    {
+
+        margin-top: -200px; 
+    }
+    .current_menu
+    {
+     font-weight: bold;
+    } 
+    }
